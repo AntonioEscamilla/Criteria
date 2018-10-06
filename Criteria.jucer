@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="wxIdF1" name="Criteria" projectType="guiapp" version="1.1"
+              bundleIdentifier="com.yourcompany.Criteria" includeBinaryInAppConfig="1"
+              jucerVersion="3.2.0" companyName="">
+  <MAINGROUP id="MBEpk2" name="Criteria">
+    <GROUP id="{869AB9BD-080F-5A1F-CD4F-44F062C14036}" name="Source">
+      <FILE id="sxrYnk" name="AboutWindow.h" compile="0" resource="0" file="Source/AboutWindow.h"/>
+      <FILE id="yf0dSL" name="EmbeddedImage.cpp" compile="1" resource="0"
+            file="Source/EmbeddedImage.cpp"/>
+      <FILE id="vkdtTS" name="EmbeddedImage.h" compile="0" resource="0" file="Source/EmbeddedImage.h"/>
+      <FILE id="JF1RkB" name="CustomButtonComponent.cpp" compile="1" resource="0"
+            file="Source/CustomButtonComponent.cpp"/>
+      <FILE id="drpxah" name="CustomButtonComponent.h" compile="0" resource="0"
+            file="Source/CustomButtonComponent.h"/>
+      <FILE id="FruUTn" name="FilterBank.cpp" compile="1" resource="0" file="Source/FilterBank.cpp"/>
+      <FILE id="Z5M6L0" name="FilterBank.h" compile="0" resource="0" file="Source/FilterBank.h"/>
+      <FILE id="pm6eBg" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="RK3LMd" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="f0KReW" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="MWZG8P" name="matPlotsHeader.h" compile="0" resource="0"
+            file="Source/matPlotsHeader.h"/>
+      <FILE id="VuHyTF" name="parameterComponent.cpp" compile="1" resource="0"
+            file="Source/parameterComponent.cpp"/>
+      <FILE id="uefqff" name="parameterComponent.h" compile="0" resource="0"
+            file="Source/parameterComponent.h"/>
+      <FILE id="H8NkHL" name="ParametroEnergetico.cpp" compile="1" resource="0"
+            file="Source/ParametroEnergetico.cpp"/>
+      <FILE id="DZY9XB" name="ParametroEnergetico.h" compile="0" resource="0"
+            file="Source/ParametroEnergetico.h"/>
+      <FILE id="SN6uQt" name="ParametroTemporal.cpp" compile="1" resource="0"
+            file="Source/ParametroTemporal.cpp"/>
+      <FILE id="VXCe3a" name="ParametroTemporal.h" compile="0" resource="0"
+            file="Source/ParametroTemporal.h"/>
+      <FILE id="jIlsBQ" name="PlotComponent.cpp" compile="1" resource="0"
+            file="Source/PlotComponent.cpp"/>
+      <FILE id="VBkNC6" name="PlotComponent.h" compile="0" resource="0" file="Source/PlotComponent.h"/>
+      <FILE id="VcQkYY" name="Signal.cpp" compile="1" resource="0" file="Source/Signal.cpp"/>
+      <FILE id="RzP5hQ" name="Signal.h" compile="0" resource="0" file="Source/Signal.h"/>
+      <FILE id="JqJXQB" name="ventanaMedicion.cpp" compile="1" resource="0"
+            file="Source/ventanaMedicion.cpp"/>
+      <FILE id="w7vcFS" name="ventanaMedicion.h" compile="0" resource="0"
+            file="Source/ventanaMedicion.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" extraLinkerFlags="-lfftw3" externalLibraries="">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" osxSDK="10.10 SDK" osxCompatibility="10.9 SDK" osxArchitecture="default"
+                       isDebug="1" optimisation="1" targetName="Criteria" headerPath="/usr/local/include"
+                       libraryPath="/usr/local/lib"/>
+        <CONFIGURATION name="Release" osxSDK="10.10 SDK" osxCompatibility="10.9 SDK"
+                       osxArchitecture="default" isDebug="0" optimisation="2" targetName="Criteria"
+                       headerPath="/usr/local/include" libraryPath="/usr/local/lib"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+        <MODULEPATH id="dRowAudio" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="dRowAudio" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_utils" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS DROWAUDIO_USE_CURL="disabled"/>
+</JUCERPROJECT>
