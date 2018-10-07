@@ -4,6 +4,10 @@
               bundleIdentifier="com.yourcompany.Criteria" includeBinaryInAppConfig="1"
               jucerVersion="3.2.0" companyName="">
   <MAINGROUP id="MBEpk2" name="Criteria">
+    <GROUP id="{5E4287F7-BA61-A1FA-3F4C-54E7FF093258}" name="Resources">
+      <FILE id="cwMOxk" name="Criteria icon.png" compile="0" resource="1"
+            file="Resources/Criteria icon.png"/>
+    </GROUP>
     <GROUP id="{869AB9BD-080F-5A1F-CD4F-44F062C14036}" name="Source">
       <FILE id="sxrYnk" name="AboutWindow.h" compile="0" resource="0" file="Source/AboutWindow.h"/>
       <FILE id="yf0dSL" name="EmbeddedImage.cpp" compile="1" resource="0"
@@ -45,7 +49,8 @@
     </GROUP>
   </MAINGROUP>
   <EXPORTFORMATS>
-    <XCODE_MAC targetFolder="Builds/MacOSX" extraLinkerFlags="-lfftw3" externalLibraries="">
+    <XCODE_MAC targetFolder="Builds/MacOSX" extraLinkerFlags="-lfftw3" externalLibraries=""
+               bigIcon="cwMOxk" smallIcon="cwMOxk">
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" osxSDK="10.10 SDK" osxCompatibility="10.9 SDK" osxArchitecture="default"
                        isDebug="1" optimisation="1" targetName="Criteria" headerPath="/usr/local/include"
