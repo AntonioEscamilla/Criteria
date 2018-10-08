@@ -47,3 +47,7 @@ For the analysis of results, measurements were taken in several acoustics rooms 
 
 ![Criteria_7](https://github.com/AntonioEscamilla/images-in-readMe/blob/master/Criteria/criteria_7.png)
 
+## About this Software
+Criteria was developed by  **Yonny Quiceno, Alejandro Mejia, Juan F. Londoño** and **Antonio Escamilla Pinilla**, in the context of a research project entitled **Desarrollo de un Software de Medición para la Obtención de Parámetros Acústicos en Recintos Cerrados Soportado en la Norma ISO-3382**.
+
+The full design, implementation and analisys process was presented in the AES 2016 Latin American Convention. Academic Event with an international peer review committee.
