@@ -19,3 +19,31 @@ At any time, the user can choose between octave or third octave band filters for
 
 ![Criteria_2](https://github.com/AntonioEscamilla/images-in-readMe/blob/master/Criteria/Criteria_2.png)
 
+## Measurement with Sinusoidal Sweep Signals
+Modern systems for measuring impulse responses in acoustic enclosures are based on using, as a system input, a known test signal; and with this, measure the response of the room. The conditions for the choice of the test signal, should be: The perfect reproducibility of the signal, the ability to maximize the signal-to-noise ratio in the impulse response, and allow for the elimination of non-linear artifacts that may appear in the impulse response. Traditionally, 2 types of signals have been used: Pseudorandom periodicals with practically the same stochastic properties of white noise, known as MLS signals and/or sinusoidal sweep signals of changing frequency over time (Sine Sweep).
+
+As a result of the previous analysis, it was decided to use Sine Sweep signals to excite the enclosure. The user interface allows to choose between linear or logarithmic sinusoidal signals, define their duration and enter an estimated reverberation time in the room to optimize the capture time of the system response. The sweep in frequency, which should cover the entire audible range (20Hz-20KHz), extends at both ends to minimize the influence of the transients introduced, both at the beginning and at the end, by the mathematical function for the calculation of the sinusoidal signal.
+
+## Results and Comparison
+For the analysis of results, measurements were taken in several acoustics rooms of the University of San Buenaventura Medellín, which present different characteristics in terms of surfaces, volume, noise level, use, among others. In each of these enclosures, measurement processes were carried out using the Criteria, Dirac® and Aurora® software, taking into account that the configuration parameters of the measurement with each software were the same. In addition, the entire electro-acoustic chain for the measurements was the same, in order to guarantee a well-established point of comparison. Below are some of the most representative results.
+
+* C80 Energy Parameter
+
+![Criteria_4](https://github.com/AntonioEscamilla/images-in-readMe/blob/master/Criteria/criteria_4.png)
+
+* D50 Energy Parameter
+
+![Criteria_8](https://github.com/AntonioEscamilla/images-in-readMe/blob/master/Criteria/criteria_8.png)
+
+* RT30 Time Parameter
+
+![Criteria_5](https://github.com/AntonioEscamilla/images-in-readMe/blob/master/Criteria/criteria_5.png)
+
+* RT20 Time Parameter
+
+![Criteria_6](https://github.com/AntonioEscamilla/images-in-readMe/blob/master/Criteria/criteria_6.png)
+
+* EDT Time Parameter
+
+![Criteria_7](https://github.com/AntonioEscamilla/images-in-readMe/blob/master/Criteria/criteria_7.png)
+
